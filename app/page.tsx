@@ -27,9 +27,8 @@ export default function Home() {
         <div className="relative z-10">
           <Header />
           <HeroSection />
-          <ProjectsGrid />
           <LabNotes />
-          <Workbench />
+          <ProjectsGrid />
           <Footer />
         </div>
       </main>
