@@ -12,7 +12,6 @@ const navItems = [
   { label: "Home", href: "/" },
   { label: "Store", href: "/projects" },
   { label: "Docs", href: "/workbench" },
-  { label: "Blog", href: "/blog" },
 ]
 
 const socialLinks = [

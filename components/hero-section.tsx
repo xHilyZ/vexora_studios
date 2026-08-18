@@ -45,7 +45,7 @@ export function HeroSection() {
                 Vexora <span className="text-primary">Studios</span>
               </h1>
               <p className="text-xl sm:text-2xl text-muted-foreground">
-                Premium FiveM Scripts & Custom MLOs
+                Fivem Scripting, framework customization & feature creation
               </p>
             </div>
 
