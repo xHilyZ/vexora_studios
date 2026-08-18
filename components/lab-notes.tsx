@@ -72,20 +72,21 @@ export function LabNotes() {
   const stack = {
     languages: [
       { name: "Lua", icon: Flame, description: "Primary language for high-performance FiveM resource scripting." },
-      { name: "JavaScript", icon: Code2, description: "Web-based NUI interfaces and responsive frontend features." },
-      { name: "CSS", icon: Terminal, description: "Styling layout, overlay UI elements, and HUDs." },
-      { name: "SQL", icon: Database, description: "Optimized database design, queries, and state management." },
+      { name: "JS", icon: Code2, description: "Dynamic scripting for client-side functionality and logic." },
+      { name: "SQL", icon: Database, description: "Database management, querying, and data persistence." },
+      { name: "HTML", icon: Terminal, description: "Semantic markup for web-based UI components." },
+      { name: "CSS", icon: Settings, description: "Styling and layout management for custom interfaces." },
     ],
     frameworks: [
-      { name: "React", icon: Cpu, description: "Interactive, scalable user interfaces for rich in-game overlays." },
-      { name: "Next.js", icon: Globe, description: "Advanced frontend structures and server-side components." },
-      { name: "Qbox", icon: Shield, description: "Next-gen, security-first FiveM roleplay framework customization." },
-      { name: "ESX", icon: Settings, description: "Classic and legacy FiveM economic system optimizations." },
+      { name: "React", icon: Cpu, description: "Building complex, reactive user interfaces for game overlays." },
+      { name: "Next.js", icon: Globe, description: "Framework for building fast, scalable web applications." },
     ],
     tools: [
-      { name: "FiveM", icon: Laptop, description: "Game client and server sandbox environment operations." },
-      { name: "NUI", icon: Eye, description: "Web overlays integrating UI directly inside GTAV's interface." },
-      { name: "Cloudflare", icon: GitBranch, description: "Domain protection, CDN routing, and optimized security." },
+      { name: "FiveM", icon: Laptop, description: "The core platform for GTAV multiplayer modification." },
+      { name: "NUI", icon: Eye, description: "Custom UI development for game-integrated interfaces." },
+      { name: "Git", icon: GitBranch, description: "Version control for project tracking and collaboration." },
+      { name: "VS Code", icon: Laptop, description: "Primary IDE for development and debugging." },
+      { name: "Cloudflare", icon: Shield, description: "Infrastructure, security, and performance optimization." },
     ],
   }
 
