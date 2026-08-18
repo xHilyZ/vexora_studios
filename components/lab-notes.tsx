@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { cn } from "@/lib/utils"
-import { Code2, Database, Terminal, GitBranch, Shield, Cpu, Flame, Settings, Laptop } from "lucide-react"
+import { Code2, Database, Terminal, GitBranch, Shield, Cpu, Flame, Settings, Laptop, Eye, Globe } from "lucide-react"
 
 // Hardcoded sample data for GitHub activity stream to make it interactive and authentic
 const commitData2026 = [
@@ -73,17 +73,19 @@ export function LabNotes() {
     languages: [
       { name: "Lua", icon: Flame, description: "Primary language for high-performance FiveM resource scripting." },
       { name: "JavaScript", icon: Code2, description: "Web-based NUI interfaces and responsive frontend features." },
+      { name: "CSS", icon: Terminal, description: "Styling layout, overlay UI elements, and HUDs." },
       { name: "SQL", icon: Database, description: "Optimized database design, queries, and state management." },
-      { name: "HTML5", icon: Terminal, description: "Structuring custom overlay UI elements." },
     ],
     frameworks: [
+      { name: "React", icon: Cpu, description: "Interactive, scalable user interfaces for rich in-game overlays." },
+      { name: "Next.js", icon: Globe, description: "Advanced frontend structures and server-side components." },
       { name: "Qbox", icon: Shield, description: "Next-gen, security-first FiveM roleplay framework customization." },
-      { name: "ESX", icon: Cpu, description: "Classic and legacy FiveM economic system optimizations." },
-      { name: "Ox Lib", icon: Settings, description: "Utilizing modular libraries for ultimate script performance." },
+      { name: "ESX", icon: Settings, description: "Classic and legacy FiveM economic system optimizations." },
     ],
     tools: [
-      { name: "Git", icon: GitBranch, description: "Version control and collaborative repository maintenance." },
-      { name: "VS Code", icon: Laptop, description: "The primary development environment and debugger." },
+      { name: "FiveM", icon: Laptop, description: "Game client and server sandbox environment operations." },
+      { name: "NUI", icon: Eye, description: "Web overlays integrating UI directly inside GTAV's interface." },
+      { name: "Cloudflare", icon: GitBranch, description: "Domain protection, CDN routing, and optimized security." },
     ],
   }
 
